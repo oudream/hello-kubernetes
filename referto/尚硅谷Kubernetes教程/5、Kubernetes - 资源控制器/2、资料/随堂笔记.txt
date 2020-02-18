@@ -1,0 +1,12 @@
+Pod 的分类
+	自主式 Pod：Pod 退出了，此类型的 Pod 不会被创建
+	
+	控制器管理的 Pod：在控制器的生命周期里，始终要维持 Pod 的副本数目
+	
+	
+	申明式编程 （Deployment）  apply（优）	create
+	命令式	（rs）	 		   create（优）   apply
+	
+	
+	
+	
