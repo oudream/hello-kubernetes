@@ -200,12 +200,6 @@ cfssl gencert -ca=/fff/kubernetes/ca.pem \
   -profile=kubernetes admin-csr.json | cfssljson -bare admin
 
 
-cfssl gencert -ca=/fff/kubernetes/ca.pem \
-  -ca-key=/fff/kubernetes/ca-key.pem \
-  -config=/fff/kubernetes/ca-config.json \
-  -profile=kubernetes admin-csr.json | cfssljson -bare admin
-
-
 # 设置集群参数
 kubectl config set-cluster kubernetes \
   --certificate-authority=/fff/kubernetes/ca.pem \
