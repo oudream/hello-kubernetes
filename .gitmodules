@@ -28,3 +28,6 @@
 [submodule "referto/dashboard"]
 	path = referto/dashboard
 	url = https://github.com/kubernetes/dashboard.git
+[submodule "referto/chart-testing"]
+	path = referto/chart-testing
+	url = https://github.com/helm/chart-testing.git
